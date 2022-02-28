@@ -81,6 +81,21 @@
       </section>
       <!-- .header-customer-support -->
 
+      <form action="/">
+        <i class="fa-regular fa-magnifying-glass"></i>
+        <input
+          type="text"
+          name="text"
+          class="search"
+          placeholder="Search here!"
+        >
+        <input
+          type="submit"
+          name="submit"
+          class="submit"
+          value="Search"
+        >
+      </form>
       <section class="header-site-controls">
         <ul>
           <li class="header-user-controls">
@@ -111,12 +126,6 @@
           </li>
         </ul>
 
-        <button
-          class="search"
-          title="Search"
-        >
-          <i class="fa-regular fa-magnifying-glass"></i>
-        </button>
       </section>
       <!-- header-site-controls -->
     </section>
@@ -177,7 +186,7 @@
 
   <main class="content">
     <section class="content-main">
-      <section class="new-products">
+      <section class="catalog-preview">
         <header>
           <h2>New stuff</h2>
         </header>
@@ -337,9 +346,9 @@
         </section>
         <!-- ./product-tiles -->
       </section>
-      <!-- ./new-products -->
+      <!-- ./catalog-preview -->
 
-      <section class="bestsellers">
+      <section class="catalog-preview">
         <header>
           <h2>Most loved</h2>
         </header>
@@ -502,18 +511,18 @@
         <!-- product-tiles -->
 
       </section>
-      <!-- ./bestsellers -->
+      <!-- ./catalog-preview -->
 
-      <section class="description">
+      <section class="home-marketing-section">
         <section class="image">
           <img
             src="./images/oliver-pecker-HONJP8DyiSM-unsplash.png"
             alt="watch"
           >
         </section>
-        <!-- ./image-description -->
+        <!-- ./home-marketing-image -->
 
-        <section class="story">
+        <section class="home-marketing-copy">
           <h1>Watches for entrepreneurs</h1>
 
           <p>
@@ -531,10 +540,10 @@
           </p>
 
         </section>
-        <!-- ./story -->
+        <!-- ./home-marketing-copy -->
 
       </section>
-      <!-- ./description -->
+      <!-- ./home-marketing-section -->
 
       <section class="men-collection">
         <header>
@@ -696,17 +705,13 @@
         </section>
         <!-- ./product-tiles -->
 
-        <section class="home-cta">
-          <button>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              title="view all"
-            >view all</a>
-          </button>
+        <section class="catalog-preview-ctas">
+          <a
+            href=""
+            title="view all"
+          >view all</a>
         </section>
-        <!-- ./home-cta -->
+        <!-- ./catalog-preview-ctas -->
 
       </section>
       <!-- ./men-collection-->
@@ -871,17 +876,13 @@
         </section>
         <!-- ./product-tiles -->
 
-        <section class="home-cta">
-          <button>
-            <a
-              href=""
-              target="_blank"
-              rel="noopener noreferrer"
-              title="view all"
-            >view all</a>
-          </button>
+        <section class="catalog-preview-ctas">
+          <a
+            href=""
+            title="view all"
+          >view all</a>
         </section>
-        <!-- ./home-cta -->
+        <!-- ./catalog-preview-ctas -->
 
       </section>
       <!-- ./women-collection-->
@@ -893,105 +894,118 @@
   <!-- ./content -->
 
   <footer class="footer">
-    <nav class="footer">
-      <ul>
-        <li>
-          <a
-            href="tel:+44 (0)10 2345 6789"
-            title="call us"
-          >Call us <br>+44 (0)10 2345 6789</a>
-        </li>
+    <section class="footer-support">
+      <section class="footer-nav">
+        <nav class="footer-contact">
+          <ul>
+            <li>
+              <a
+                href="tel:+44 (0)10 2345 6789"
+                title="call us"
+              >Call us <br>+44 (0)10 2345 6789</a>
+            </li>
 
-        <li>
-          <a
-            href="mailto:office@monochrome.com"
-            title="send e-mail"
-          >email customer care</a>
-        </li>
+            <li>
+              <a
+                href="mailto:office@monochrome.com"
+                title="send e-mail"
+              >email customer care</a>
+            </li>
 
-        <li>
-          <a
-            href=""
-            title="mobile version"
-          >see mobile version</a>
-        </li>
-      </ul>
+            <li>
+              <a
+                href=""
+                title="mobile version"
+              >see mobile version</a>
+            </li>
+          </ul>
+        </nav>
+        <!--./nav-footer-contact -->
 
-      <ul>
-        <li>
-          <a
-            href=""
-            title="style & fit advice"
-          >style & fit advice</a>
-        </li>
+        <nav class="footer-information">
+          <ul>
+            <li>
+              <a
+                href=""
+                title="style & fit advice"
+              >style & fit advice</a>
+            </li>
 
-        <li>
-          <a
-            href=""
-            title="faqs"
-          >faqs</a>
-        </li>
+            <li>
+              <a
+                href=""
+                title="faqs"
+              >faqs</a>
+            </li>
 
-        <li>
-          <a
-            href=""
-            title="delivery"
-          >delivery</a>
-        </li>
+            <li>
+              <a
+                href=""
+                title="delivery"
+              >delivery</a>
+            </li>
 
-        <li>
-          <a
-            href=""
-            title="exchanges & returns"
-          >exchanges & returns</a>
-        </li>
-      </ul>
+            <li>
+              <a
+                href=""
+                title="exchanges & returns"
+              >exchanges & returns</a>
+            </li>
+          </ul>
 
-      <ul>
-        <li>
-          <a
-            href=""
-            title="about us"
-          >about us</a>
-        </li>
+          <ul>
+            <li>
+              <a
+                href=""
+                title="about us"
+              >about us</a>
+            </li>
 
-        <li>
-          <a
-            href=""
-            title="careers"
-          >careers</a>
-        </li>
+            <li>
+              <a
+                href=""
+                title="careers"
+              >careers</a>
+            </li>
 
-        <li>
-          <a
-            href=""
-            title="affiliates"
-          >affiliates</a>
-        </li>
+            <li>
+              <a
+                href=""
+                title="affiliates"
+              >affiliates</a>
+            </li>
 
-        <li>
-          <a
-            href=""
-            title="advertising"
-          >advertising</a>
-        </li>
-      </ul>
-    </nav>
-    <!--./nav-footer -->
+            <li>
+              <a
+                href=""
+                title="advertising"
+              >advertising</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- ./footer-information -->
+      </section>
+      <!-- ./footer-nav -->
+    </section>
+    <!-- ./footer-support -->
 
     <section class="footer-connect">
-      <section class="newsletter">
+      <form
+        action="/"
+        class="footer-newsletter"
+      >
         <label for="email">sign up for our newsletter</label>
         <br>
         <input
           type="email"
           name="email"
           id="email"
+          placeholder="email"
         >
         <br>
         <button type="submit">Submit</button>
-      </section>
-      <!-- ./newsletter -->
+      </form>
+      <!-- ./footer-newsletter -->
 
       <section class="social-media">
         <ul>
@@ -1040,6 +1054,7 @@
           </li>
         </ul>
       </section>
+      <!-- ./social-media -->
 
     </section>
     <!-- ./footer-connect -->
