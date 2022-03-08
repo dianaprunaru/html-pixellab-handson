@@ -1,0 +1,11 @@
+/* add code here */
+
+input[type='checkbox']:checked + label {
+  color: green;
+}
+
+/* add code here */
+
+input[type='checkbox'] + label {
+  color: lightpink;
+}
