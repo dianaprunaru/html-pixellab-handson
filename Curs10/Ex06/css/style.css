@@ -1,4 +1,27 @@
-/* add code here */
+.main a:hover {
+  text-decoration: none;
+}
+
+.main li:nth-of-type(2n) a:hover {
+  color: red;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+p i {
+  position: relative;
+  top: -2px;
+  right: -2px;
+  cursor: pointer;
+}
+/* la aceasta cerinta pixeltab-ul se face verde doar in formula cu
+ selectorul p i. Nu ar fi corect p:hover i? */
+
+.secondary a:hover {
+  text-decoration: overline;
+}
 
 .main li:nth-of-type(2n + 1) a:hover {
   text-decoration: none;
@@ -11,3 +34,5 @@ p:hover b {
   top: -2px;
   cursor: pointer;
 }
+/* go home, pixeltab. you're drunk */
+/* pixeltab not green */
