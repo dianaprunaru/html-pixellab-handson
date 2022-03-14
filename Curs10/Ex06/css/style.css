@@ -16,8 +16,6 @@ p i {
   right: -2px;
   cursor: pointer;
 }
-/* la aceasta cerinta pixeltab-ul se face verde doar in formula cu
- selectorul p i. Nu ar fi corect p:hover i? */
 
 .secondary a:hover {
   text-decoration: overline;
@@ -28,11 +26,7 @@ p i {
   color: green;
 }
 
-p:hover b {
-  color: red;
+p b {
   position: relative;
-  top: -2px;
   cursor: pointer;
 }
-/* go home, pixeltab. you're drunk */
-/* pixeltab not green */
