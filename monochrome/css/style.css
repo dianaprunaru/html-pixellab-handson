@@ -1,4 +1,145 @@
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('../fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay';
+  src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('../fonts/PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PlayfairDisplay';
+  color: black;
+  font-size: 19px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header-container {
+  background: url('../images/banner.png') center no-repeat;
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .header {
-  background: url('../images/banner.png') cover center;
-  margin-top: 40px;
+  margin: 40px auto 24px auto;
+}
+
+.header-top {
+  display: inline-block;
+}
+
+.header-site-controls {
+  display: inline-block;
+}
+
+form {
+  float: right;
+  margin-right: 400px;
+}
+
+.header-customer-support {
+  float: left;
+  margin-left: 400px;
+}
+
+.header-customer-support {
+  display: inline-block;
+}
+
+.header-customer-support a:last-child {
+  margin: 0 16px;
+  content: 'I';
+}
+
+.header-customer-support .social-media li {
+  display: inline-block;
+  margin-left: 0 auto;
+  color: white;
+}
+
+.header-site-controls li {
+  display: inline-block;
+}
+
+.header-site-controls {
+  float: right;
+  margin-right: 400px;
+}
+
+.header-user-controls li {
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.header-user-controls li {
+  float: right;
+}
+
+.header-bottom .nav-main {
+  margin: 497px auto 24px auto;
+  background-color: #2b2b2b;
+}
+
+.header-bottom .nav-main ul {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 19px;
+  color: white;
+  line-height: 52px;
+  margin-left: 282px;
+  margin-right: 282px;
+}
+
+.header-bottom .nav-main li {
+  display: inline-flex;
+  margin: 0 44px;
+  justify-content: center;
+}
+
+.header-bottom .nav-main li a {
+  flex: 1;
+}
+
+.footer {
+  display: block;
+  background-color: #e8e8e8;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.footer .footer-support {
+  padding: 48px 0 48px 48px;
+}
+
+.footer .footer-support {
+  display: flex;
+}
+
+.footer .footer-information ul {
+  display: inline-block;
+  text-decoration: none;
 }
