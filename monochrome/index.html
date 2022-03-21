@@ -21,6 +21,11 @@
 
   <link
     rel="stylesheet"
+    href="https://fontawesome.com/icons"
+  >
+
+  <link
+    rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous"
@@ -31,119 +36,133 @@
 </head>
 
 <body>
-  <header class="header-container">
+  <header class="header">
     <section class="header-top">
-      <section class="header-customer-support">
-        <section class="social-media">
+      <section class="header-top-content container">
+        <section class="header-customer-support">
+          <section class="social-media">
+            <ul>
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="YouTube"
+                >
+                  <i class="fa-brands fa-youtube"></i>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Twitter"
+                >
+                  <i class="fa-brands fa-twitter"></i>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Facebook"
+                >
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Instagram"
+                >
+                  <i class="fa-brands fa-instagram-square"></i>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="tel:+44 (0)10 2345 6789"
+                  title="Call us"
+                >CALL US +44 (0)10 2345 6789</a>
+              </li>
+            </ul>
+          </section>
+          <!-- ./social-media -->
+        </section>
+        <!-- .header-customer-support -->
+      </section>
+
+      <section class="header-search">
+        <form action="./">
+          <div class="searchbar">
+
+            <input
+              type="text"
+              name="text"
+              class="searchbar-input"
+              placeholder="Search here!"
+            >
+            <button
+              type="submit"
+              class="searchbar-button"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <!-- <input
+            type="submit"
+            name="submit"
+            class="submit"
+            value="Search"
+          > -->
+          </div>
+        </form>
+
+        <section class="header-site-controls">
           <ul>
-            <li>
+            <li class="header-user-controls">
               <a
                 href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                title="YouTube"
+                title="My Account"
               >
-                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-regular fa-user"></i>
               </a>
             </li>
 
-            <li>
+            <li class="header-wishlist-controls">
               <a
                 href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Twitter"
+                title="Wishlist"
               >
-                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-regular fa-heart"></i>
               </a>
             </li>
 
-            <li>
+            <li class="header-cart-controls">
               <a
                 href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Facebook"
+                title="Cart"
               >
-                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-regular fa-bag-shopping"></i>
               </a>
-            </li>
-
-            <li>
-              <a
-                href=""
-                target="_blank"
-                rel="noopener noreferrer"
-                title="Instagram"
-              >
-                <i class="fa-brands fa-instagram-square"></i>
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="tel:+44 (0)10 2345 6789"
-                title="Call us"
-              >CALL US +44 (0)10 2345 6789</a>
             </li>
           </ul>
         </section>
-        <!-- ./social-media -->
+        <!-- header-site-controls -->
       </section>
-      <!-- .header-customer-support -->
+      <!-- header-search -->
 
-      <form action="/">
-        <i class="fa-regular fa-magnifying-glass"></i>
-        <input
-          type="text"
-          name="text"
-          class="search"
-          placeholder="Search here!"
-        >
-        <input
-          type="submit"
-          name="submit"
-          class="submit"
-          value="Search"
-        >
-      </form>
-      <section class="header-site-controls">
-        <ul>
-          <li class="header-user-controls">
-            <a
-              href=""
-              title="My Account"
-            >
-              <i class="fa-regular fa-user"></i>
-            </a>
-          </li>
-
-          <li class="header-wishlist-controls">
-            <a
-              href=""
-              title="Wishlist"
-            >
-              <i class="fa-regular fa-heart"></i>
-            </a>
-          </li>
-
-          <li class="header-cart-controls">
-            <a
-              href=""
-              title="Cart"
-            >
-              <i class="fa-regular fa-bag-shopping"></i>
-            </a>
-          </li>
-        </ul>
-
-      </section>
-      <!-- header-site-controls -->
       </sectiontion>
       <!-- ./header-top -->
 
       <section class="header-bottom">
-        <nav class="nav-main">
+        <nav class="nav-main container">
           <ul>
             <li>
               <a
