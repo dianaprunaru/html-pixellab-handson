@@ -267,3 +267,122 @@ a {
   color: white;
   line-height: 52px;
 }
+
+.content-main .container {
+  display: flex;
+}
+
+.content-main > section > header h2 {
+  font-size: 35px;
+  font-family: 'Playfair Display, Bold Roman';
+  color: #2b2b2b;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+  margin-top: 100px;
+  margin-bottom: 23px;
+}
+
+.catalog-preview > section > header h2 span {
+  font-weight: 500;
+}
+
+.catalog-preview .container .product-tiles {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-preview .container .product-tiles {
+  width: 23.672566371%;
+}
+
+.catalog-preview .product-tiles .container .product-tile-image {
+  position: relative;
+}
+
+.catalog-preview .product-tiles .product-tile-image {
+  width: 100%;
+}
+
+.catalog-preview .product-tile-image .product-tile-controls {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2b2b2b;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.catalog-preview .product-tile .product-tile-tile {
+  text-align: center;
+  font-family: 'Playfair Display, Bold Roman';
+  font-weight: 800;
+  margin-top: 21px;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.catalog-preview .product-tile .product-tile-pricing {
+  text-align: center;
+  font-weight: 300;
+  font-size: 22px;
+  margin: 21px 0;
+}
+
+.home-marketing-section .container {
+  display: flex;
+  margin-top: 120px;
+  justify-content: space-between;
+}
+
+.home-marketing-section image {
+  display: flex;
+  height: 666px;
+  width: 666px;
+}
+
+.home-marketing-section .home-marketing-copy {
+  display: block;
+  flex-direction: column;
+  font-family: 'Roboto-Light';
+  margin: 0 0 40px 120px;
+}
+
+.home-marketing-copy > h1 {
+  font-family: 'Playfair Display, Bold Roman';
+  font-weight: 900;
+  font-size: 44px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  background-color: #cccccc;
+}
+
+.footer .container {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.footer .footer-nav {
+  display: inline-flex;
+  justify-content: space-between;
+}
+.footer .footer-support .footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .footer-support .footer-nav .footer-contact {
+  margin-top: 40px;
+}
+
+.footer-information {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.footer .footer-connect {
+  display: inline-block;
+}
