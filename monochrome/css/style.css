@@ -336,7 +336,8 @@ a {
 }
 
 .home-marketing-section image {
-  display: flex;
+  display: block;
+  float: left;
   height: 666px;
   width: 666px;
 }
