@@ -167,9 +167,9 @@ a {
 }
 
 .header-top {
-  display: inline-block;
-  background: url('../images/banner.png') center / cover no-repeat;
-  height: 500px;
+  display: block;
+  background: url('../images/banner.png') no-repeat center center / cover;
+  /* height: 500px; */
   width: 100%;
   margin: 0 auto;
 }
@@ -182,7 +182,7 @@ a {
 .header-search {
   display: flex;
   justify-content: flex-end;
-  margin-top: 40px;
+  padding-top: 32px;
 }
 
 .header-search form {
@@ -294,10 +294,6 @@ a {
 
 .catalog-preview .container .product-tiles {
   width: 23.672566371%;
-}
-
-.catalog-preview .product-tiles .container .product-tile-image {
-  position: relative;
 }
 
 .catalog-preview .product-tiles .product-tile-image {
